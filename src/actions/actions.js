@@ -1,4 +1,13 @@
-import { ADD_TODO, FILTER_TODOS, MARK_ALL_COMPLETED, MARK_COMPLETED, REMOVE_TODO, TOGGLE_TODO, UPDATE_SEARCH_TERM } from "./actionTypes";
+import { 
+    ADD_TODO, 
+    FILTER_TODOS, 
+    MARK_ALL_COMPLETED, 
+    MARK_COMPLETED, 
+    MARK_INCOMPLETE,
+    REMOVE_TODO, 
+    TOGGLE_TODO, 
+    UPDATE_SEARCH_TERM 
+} from "./actionTypes";
 
 export const add_Todo= (text) =>({
 
