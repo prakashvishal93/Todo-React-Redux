@@ -3,7 +3,7 @@ import { markAllCompleted } from "./actions";
 
 const initalState = {
     todos: [],
-    fiter : "ALL",
+    filter : "ALL",
     searchTerm : ""
 }
 
