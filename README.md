@@ -20,7 +20,7 @@ Clone the repository to your local machine.
 Install dependencies using npm install.
 Run the application using npm start.
 Open your browser and navigate to http://localhost:5173 to access the Todo List app.
-```sh
+```
 cd Todo-React-Redux
 npm install
 npm run dev
