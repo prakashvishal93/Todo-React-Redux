@@ -8,3 +8,7 @@
     background: linear-gradient(to right, #DECBA4, #3E5151); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
 }
+
+.content{
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}

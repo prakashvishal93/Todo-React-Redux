@@ -29,12 +29,13 @@ const Todo = () => {
     }
 
   return (
-    <div className="max-w-4xl mx-auto sm:mt-8 p-4 bg-gray-100 rounded">
-        <h2 className="mt-3 mb-6 text-2xl font-bold text-center uppercase ">Personal Todo Application</h2>
+    <div className="max-w-4xl mx-auto sm:mt-8 p-4 bg-gray-100 rounded content" >
+        <h2 className="mt-3 mb-6 text-2xl font-bold text-center uppercase " >TASK MANAGER</h2>
 
  
         <div className="flex item-center mb-4">
-            <input value={newTodoText} onChange={(e) =>setNewTodoText(e.target.value)} type="text" name="text" id="addTodoInput" placeholder="Add Task" className="flex-grow p-2 border-b-2 bg-gray-300 focus:outline-none focus:border-blue-500" />
+            <input value={newTodoText} onChange={(e) =>setNewTodoText(e.target.value)} 
+            type="text" name="text" id="addTodoInput" placeholder="Add Task" className="flex-grow p-2 border-b-2 bg-gray-300 focus:outline-none focus:border-blue-500" />
 
             <button className="ml-4 p-2 bg-blue-500 text-white rounded hover:bg bg-blue-600 focus:outline" onClick={handleAddToDoClick}><BsPlus /></button>
         </div>
