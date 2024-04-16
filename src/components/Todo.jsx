@@ -12,8 +12,7 @@ const Todo = () => {
     
     const[newTodoText,setNewTodoText] = useState("") ;
     const[searchTerm,setSeachTerm] = useState("") ;
-    // console.log(newTodoText);
-    const handleAddToDo = (text) => {
+    const handleAddToDo = (text) => { 
         dispatch(add_Todo(text))
     }
     const handleAddToDoClick = () =>{
